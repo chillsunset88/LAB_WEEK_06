@@ -48,29 +48,20 @@ class MainActivity : AppCompatActivity() {
 
         catAdapter.setData(
             listOf(
-                CatModel(
-                    name = "Fred",
-                    breed = CatBreed.BalineseJavanese,
-                    gender = Gender.Male,
-                    biography = "Silent and deadly",
-                    imageUrl = "https://cdn2.thecatapi.com/images/7dj.jpg"
-                ),
-                CatModel(
-                    name = "Wilma",
-                    breed = CatBreed.ExoticShorthair,
-                    gender = Gender.Female,
-                    biography = "Cuddly assassin",
-                    imageUrl = "https://cdn2.thecatapi.com/images/egv.jpg"
-                ),
-                CatModel(
-                    name = "Curious George",
-                    breed = CatBreed.AmericanCurl,
-                    gender = Gender.Unknown,
-                    biography = "Award winning investigator",
-                    imageUrl = "https://cdn2.thecatapi.com/images/bar.jpg"
-                )
+                CatModel(Gender.Male, CatBreed.BalineseJavanese, "Fred", "Silent and deadly", "https://cdn2.thecatapi.com/images/7dj.jpg"),
+                CatModel(Gender.Female, CatBreed.ExoticShorthair, "Wilma", "Cuddly assassin", "https://cdn2.thecatapi.com/images/egv.jpg"),
+                CatModel(Gender.Unknown, CatBreed.AmericanCurl, "Curious George", "Award winning investigator", "https://cdn2.thecatapi.com/images/bar.jpg"),
+                CatModel(Gender.Female, CatBreed.BalineseJavanese, "Luna", "Playful and loving", "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"),
+                CatModel(Gender.Male, CatBreed.ExoticShorthair, "Simba", "King of the couch", "https://cdn2.thecatapi.com/images/MTY3ODIyMQ2.jpg"),
+                CatModel(Gender.Male, CatBreed.AmericanCurl, "Milo", "Always curious", "https://cdn2.thecatapi.com/images/ckn.jpg"),
+                CatModel(Gender.Female, CatBreed.BalineseJavanese, "Chloe", "Gentle soul", "https://cdn2.thecatapi.com/images/MTg0NzY5MA.jpg"),
+                CatModel(Gender.Male, CatBreed.ExoticShorthair, "Oliver", "Loves naps", "https://cdn2.thecatapi.com/images/MTg0NzY5MA2.jpg"),
+                CatModel(Gender.Female, CatBreed.AmericanCurl, "Daisy", "Loves belly rubs", "https://cdn2.thecatapi.com/images/bpc.jpg"),
+                CatModel(Gender.Unknown, CatBreed.BalineseJavanese, "Charlie", "Mysterious observer", "https://cdn2.thecatapi.com/images/6qi.jpg")
             )
         )
+
+
     }
 
     // ✅ Pindahkan ke dalam class MainActivity
